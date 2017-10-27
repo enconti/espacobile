@@ -29,7 +29,8 @@
       },
       "additionalSetColors": [
         "#333333",
-        "#004362"
+        "#004362",
+        "#000000"
       ]
     },
     "versionFirst": "4.3.2",
@@ -699,43 +700,9 @@
           "_once": false,
           "_params": {
             "slides__autoplay": true,
-            "slides__autoplayInterval": 4000,
+            "slides__autoplayInterval": "5000",
             "slides__showBullets": true,
             "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/capa-1068x797.png",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-2",
-                "customStyle3": "display-4",
-                "title": "Espaço Bile",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Locação para Eventos",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/capa-1068x797.png",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-2",
-                "customStyle3": "display-4",
-                "title": "Espaço Bile",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Locação para Eventos",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
               {
                 "image": "@PROJECT_PATH@/assets/images/capa-1068x797.png",
                 "active": true,
@@ -751,7 +718,45 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Locação para Eventos",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.3"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/capa-1068x797.png",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-2",
+                "customStyle3": "display-4",
+                "title": "Espaço Bile",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Locação para Eventos",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.3"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/capa-1068x797.png",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-2",
+                "customStyle3": "display-4",
+                "title": "Espaço Bile",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Locação para Eventos",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.3",
+                "overlayColor": "#000000"
               }
             ]
           }
