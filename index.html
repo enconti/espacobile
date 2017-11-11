@@ -100,22 +100,29 @@
                 </div>
                 <div data-form-type="formoid">
                     <div data-form-alert="" hidden="">Mensagem enviada com sucesso. Em breve retornaremos o contato!</div>
-                    <form class="block mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="6+ePVXP5MygvlKl51gimrUKCE/gCMrFhYV4XACE4ObKb1Nrdp/HJ+SPUCs7zoWQxtkgmw71MvGn5o3LNDGWa22eW3ss3/k4Bh6O4sqGXuHnvu7s1uoLd++jfbKgg56uO">
+                    
+                    <form class="block mbr-form" action="http://www.espacobile.com.br/cgi-sys/formmail.pl" method="post" data-form-title="Formulário Contato" id="ajax-contact">
+                        <input type="hidden" data-form-email="true" value="" >
+                        <input type="hidden" name="recipient" value="contato@espacobile.com.br" />
+                        <input type="hidden" name="subject" value="Formulário Contato Espaço Bile" />
+                        
                         <div class="row">
                             <div class="col-md-6 multi-horizontal" data-for="name">
-                                <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Seu nome" required="" id="name-form4-2">
+                                <input type="text" class="form-control input" id="name" name="name" data-form-field="Name" placeholder="Seu nome" required="" id="name-form4-2">
                             </div>
                             <div class="col-md-6 multi-horizontal" data-for="phone">
-                                <input type="text" class="form-control input" name="phone" data-form-field="Phone" placeholder="Telefone" required="" id="phone-form4-2">
+                                <input type="text" class="form-control input" id="phone" name="phone" data-form-field="Phone" placeholder="Telefone" required="" id="phone-form4-2">
                             </div>
                             <div class="col-md-12" data-for="email">
-                                <input type="text" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="" id="email-form4-2">
+                                <input type="text" class="form-control input" id="email" name="email" data-form-field="Email" placeholder="Email" required="" id="email-form4-2">
                             </div>
                             <div class="col-md-12" data-for="message">
-                                <textarea class="form-control input" name="message" rows="3" data-form-field="Message" placeholder="Mensagem" style="resize:none" id="message-form4-2"></textarea>
+                                <textarea class="form-control input" id="message" name="message" rows="3" data-form-field="Message" placeholder="Mensagem" style="resize:none" id="message-form4-2"></textarea>
                             </div>
-                            <div class="input-group-btn col-md-12" style="margin-top: 10px;"><button href="" type="submit" class="btn btn-form btn-warning-outline display-4">Enviar Mensagem</button></div>
+                            <div class="input-group-btn col-md-12" style="margin-top: 10px;">
+                                <button href="" type="submit" class="btn btn-form btn-warning-outline display-4">Enviar Mensagem</button></div>
                         </div>
+                         
                     </form>
                 </div>
             </div>
