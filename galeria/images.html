@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Convert JSON Data to HTML Table Example</title>
+   <style>
+      img {
+         max-width: 160px;
+         max-height: 160px;
+         padding: 10px;
+      }
+
+      th {
+         font-weight: bold;
+      }
+   </style>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+   <div id="showData"></div>
+</body>
+<script>
+
+   ($(document).ready(function() {
+      $.getJSON("http://127.0.0.1/espacobile/galeria/server/php/index.php",
+         function (json) {
+            var x = "";
+            for (j in json.files) {
+               x += "<img src=" + json.files[j].url + ">";
+            };
+
+            document.getElementById("showData").innerHTML = x;
+         })
+   }));
+
+</script>
+
+</html>
